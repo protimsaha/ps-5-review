@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Aziur",
+        "comment": "Ps 5 is a amaging thing.",
+        "ratings": 4
+    },
+    {
+        "id": 2,
+        "name": "Bisley",
+        "comment": "I got the best gaming experience ever",
+        "ratings": 4.5
+    },
+    {
+        "id": 3,
+        "name": "Chang",
+        "comment": "I love to play on PS 5 with my brother",
+        "ratings": 5
+    },
+    {
+        "id": 4,
+        "name": "Devid",
+        "comment": "PS 5 was my Dream.",
+        "ratings": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Ema",
+        "comment": "I can't think a single day without my PS 5",
+        "ratings": 5
+    },
+    {
+        "id": 6,
+        "name": "Farki",
+        "comment": "Ps 5 changes my life",
+        "ratings": 4
+    },
+    {
+        "id": 7,
+        "name": "Giub",
+        "comment": "Ps 5 is good enough.But I am looking for some better",
+        "ratings": 4
+    },
+    {
+        "id": 8,
+        "name": "Hasus",
+        "comment": "Me and My siblings spend our day and our good time on it",
+        "ratings": 4
+    },
+    {
+        "id": 9,
+        "name": "Ijtia",
+        "comment": "Whatever I say about it , It will be less. I just Love it",
+        "ratings": 5
+    }
+]
