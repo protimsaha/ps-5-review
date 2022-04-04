@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
+import Card from '../Card/Card';
 import './Home.css'
 
 const Home = () => {
@@ -26,13 +27,7 @@ const Home = () => {
             {/* First Reviews*/}
 
             <div className='border-solid justify-center  rounded-xl mx-auto grid grid-cols-12 mt-24 '>
-                {threeReview.map(review =>
-                    <div key={review.id} className='col-span-4  singleReview mx-5  p-5'>
-                        <img className='photo my-5 mx-auto' src={review.profile} alt="" />
-                        <h1 className='text-2xl text-blue-800'>Name: {review.name}</h1>
-                        <p className='text-xl text-slate-700'><span className=' text text-amber-500'>Review</span>: {review.comment}</p>
-                        <p>Ratings:<span className='text-orange-500'> {review.ratings}</span></p>
-                    </div>)}
+                {threeReview.map(review => <Card key={review.id} review={review}></Card>)}
             </div>
             {/* Go to review page button */}
             <div>
