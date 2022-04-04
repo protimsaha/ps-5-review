@@ -1,5 +1,5 @@
 import React from 'react';
-import { Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
     const data = [
@@ -42,16 +42,33 @@ const Dashboard = () => {
     ]
 
     return (
-        <LineChart width={700} height={500} data={data}>
-            <Line dataKey={'investment'}></Line>
-            <Line dataKey={'sell'}></Line>
-            <Line dataKey={'revenues'}></Line>
-            <XAxis dataKey={'month'}></XAxis>
-            <Tooltip></Tooltip>
-            <Legend></Legend>
-            <YAxis></YAxis>
-            <linearGradient></linearGradient>
-        </LineChart>
+        <div>
+            <div>
+                <LineChart width={700} height={500} data={data}>
+                    <Line dataKey={'investment'}></Line>
+                    <Line dataKey={'sell'}></Line>
+                    <Line dataKey={'revenues'}></Line>
+                    <XAxis dataKey={'month'}></XAxis>
+                    <Tooltip></Tooltip>
+                    <Legend></Legend>
+                    <YAxis></YAxis>
+                    <linearGradient></linearGradient>
+                </LineChart>
+            </div>
+            <div>
+                <BarChart width={730} height={500} data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="revenues" fill="#8884d8" />
+                    <Bar dataKey="investment" fill="#82ca9d" />
+                    <Bar dataKey="sell" fill="#FFA500" />
+                </BarChart>
+            </div>
+
+        </div>
     );
 };
 
