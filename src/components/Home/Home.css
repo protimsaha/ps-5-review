@@ -2,3 +2,9 @@
     border-radius: 20px;
     background-color: rgba(135, 206, 250, 0.781);
 }
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}

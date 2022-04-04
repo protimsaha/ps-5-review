@@ -3,54 +3,63 @@
         "id": 1,
         "name": "Aziur",
         "comment": "Ps 5 is a amaging thing.",
+        "profile": "https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg",
         "ratings": 4
     },
     {
         "id": 2,
         "name": "Bisley",
         "comment": "I got the best gaming experience ever",
+        "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrI9rDn-7eGuL4uYfe4pvtJMFELZiK-E8v2A2S5wYCy0akqKitphbBSDhb0HWKVIwdQj8&usqp=CAU",
         "ratings": 4.5
     },
     {
         "id": 3,
         "name": "Chang",
         "comment": "I love to play on PS 5 with my brother",
+        "profile": "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "ratings": 5
     },
     {
         "id": 4,
         "name": "Devid",
         "comment": "PS 5 was my Dream.",
+        "profile": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "ratings": 4.5
     },
     {
         "id": 5,
         "name": "Ema",
         "comment": "I can't think a single day without my PS 5",
+        "profile": "https://www.adobe.com/express/create/media_12fba2095574905af9ed8a6e02a16b819b768c2d0.jpeg?width=400&format=jpeg&optimize=medium",
         "ratings": 5
     },
     {
         "id": 6,
         "name": "Farki",
         "comment": "Ps 5 changes my life",
+        "profile": "https://www.adobe.com/express/create/media_105e11dd3ccbd1a7b45da765b9401dfdcd311f89f.jpeg?width=400&format=jpeg&optimize=medium",
         "ratings": 4
     },
     {
         "id": 7,
         "name": "Giub",
         "comment": "Ps 5 is good enough.But I am looking for some better",
+        "profile": "https://www.adobe.com/express/create/media_127540366421d3d5bfcaf8202527ca7d37741fd5d.jpeg?width=400&format=jpeg&optimize=medium",
         "ratings": 4
     },
     {
         "id": 8,
         "name": "Hasus",
         "comment": "Me and My siblings spend our day and our good time on it",
+        "profile": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
         "ratings": 4
     },
     {
         "id": 9,
         "name": "Ijtia",
         "comment": "Whatever I say about it , It will be less. I just Love it",
+        "profile": "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "ratings": 5
     }
 ]
